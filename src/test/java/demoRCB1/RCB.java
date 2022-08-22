@@ -98,6 +98,20 @@ public class RCB {
 		System.err.println(M);
 		System.out.println(M.size());
 		
+		for(int i=0; i<M.size(); i++) {
+			System.out.println(M.get(i));
+			if(!M.get(i).equals("India")) {
+				foreignPlayers = foreignPlayers+1;
+			}
+			
+		}
+		
+		System.out.println(foreignPlayers);
+		
+		if(foreignPlayers==4) {
+			System.out.println("Test case 1 is Pass");
+		}
+		
 	     
 		
 
