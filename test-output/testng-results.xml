@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-22T22:28:12 IST" name="Default suite" finished-at="2022-08-22T22:28:16 IST" duration-ms="4060">
+    <groups>
+    </groups>
+    <test started-at="2022-08-22T22:28:12 IST" name="Default test" finished-at="2022-08-22T22:28:16 IST" duration-ms="4060">
+      <class name="demoRCB1.RCB">
+        <test-method signature="RCBparsing()[pri:0, instance:demoRCB1.RCB@62e7f11d]" started-at="2022-08-22T22:28:12 IST" name="RCBparsing" finished-at="2022-08-22T22:28:16 IST" duration-ms="3985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RCBparsing -->
+      </class> <!-- demoRCB1.RCB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -113,7 +113,23 @@ public class RCB {
 		}
 		
 	     
+		// Test case 2-------------------------------------------------
 		
+		List<Object> X = J.getList("player.role");
+		System.err.println(X);
+		System.out.println(X.size());
+		
+		for(int i=0; i<X.size(); i++) {
+			if(X.get(i).equals("Wicket-keeper")) {
+				wicketkeeper = wicketkeeper+1;
+			}
+		}
+		
+		System.out.println(wicketkeeper);
+		
+		if(wicketkeeper>=1) {
+			System.out.println("Test case 2 is Pass");
+		}
 
 	}
 	
